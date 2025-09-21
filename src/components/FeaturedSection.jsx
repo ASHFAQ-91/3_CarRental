@@ -1,4 +1,3 @@
-import React from 'react'
 import Title from './Title'
 import { assets, dummyCarData } from '../assets/assets'
 import CarCard from './CarCard'
