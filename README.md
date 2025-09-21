@@ -11,3 +11,4 @@
 8. To create "Featured Vehicles" section behind 'Luxuary car on Rent' - I created "CarCard.jsx" file inside component folder and exported to ......
 9. "FeaturedSection.jsx" file created inside components folder. In FeaturedSection.jsx file I import "useNavigate" from 'react-router-dom' then create a 'const navigate' variable using UseNavigate() function, and Implement on a button using 'onClick={}' function and then exported to Home.jsx file. and files also connected with it like "CarCard.jsx" & "Title.jsx".
 10. "Banner.jsx" file is created inside components folder. Then Export to "Home.jsx" file.
+11. "Testimonial.jsx" file is created inside components folder. Then Export to "Home.jsx" file.
