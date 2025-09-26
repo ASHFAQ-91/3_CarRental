@@ -19,3 +19,7 @@
 11. "Testimonial.jsx" file is created inside components folder. Then Exported to "Home.jsx" file.
 12. "NewsLetter.jsx" file is created inside components folder. Then Exported to "Home.jsx" file.
 13. "Footer.jsx" file is created inside components folder. Then Exported to App.jsx" file so it can implement to all "pages".
+
+
+###  CarDetails(import- Loader)
+14. "CarDetails.jsx" file is created inside pages folder. Then Exported to "App.jsx" file.
