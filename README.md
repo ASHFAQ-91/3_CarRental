@@ -1,4 +1,4 @@
-# Steps for creating this project.
+# Steps for creating this project:-
 
 ### .env, Navbar, Hero, Home.
 1. First I changed Website name & icon.
@@ -25,3 +25,12 @@
 14. "CarDetails.jsx" file is created inside pages folder. Then Exported to "App.jsx" file.
 15. "Cars.jsx" file is created inside pages folder. Then Exported to "App.jsx" file.
 16. "MyBooking.jsx" file is created inside pages folder. Then Exported to "App.jsx" file.
+
+
+
+## Owner Section:-
+
+### Layout(import- NavbarOwner, Sidebar, )
+17. "NavbarOwner.jsx" file is created inside owner/components folder. Then Exported to "Layout.jsx" file.
+18. "Sidebar.jsx" file is created inside owner/components folder. Then Exported to "Layout.jsx" file.
+19. "TitleOwner.jsx" file is created inside owner/components folder. Then Exported to No-where.
