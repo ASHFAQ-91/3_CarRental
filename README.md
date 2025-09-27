@@ -21,5 +21,6 @@
 13. "Footer.jsx" file is created inside components folder. Then Exported to App.jsx" file so it can implement to all "pages".
 
 
-###  CarDetails(import- Loader)
+###  CarDetails(import- Loader), Cars(import- Title), 
 14. "CarDetails.jsx" file is created inside pages folder. Then Exported to "App.jsx" file.
+15. "Cars.jsx" file is created inside pages folder. Then Exported to "App.jsx" file.
