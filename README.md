@@ -30,7 +30,9 @@
 
 ## Owner Section:-
 
-### Layout(import- NavbarOwner, Sidebar, )
-17. "NavbarOwner.jsx" file is created inside owner/components folder. Then Exported to "Layout.jsx" file.
-18. "Sidebar.jsx" file is created inside owner/components folder. Then Exported to "Layout.jsx" file.
-19. "TitleOwner.jsx" file is created inside owner/components folder. Then Exported to No-where.
+### Layout(import- NavbarOwner, Sidebar, ), Dashboard(import- TitleOwner, )
+17. "NavbarOwner.jsx" file is created inside components/owner folder. Then Exported to "Layout.jsx" file.
+18. "Sidebar.jsx" file is created inside components/owner folder. Then Exported to "Layout.jsx" file.
+19. "Layout.jsx" file is created inside pages/owner folder. Then Exported to "App.jsx" file.
+20. "Dashboard.jsx" file is created inside pages/owner folder. Then Exported to "App.jsx" file.
+21. "TitleOwner.jsx" file is created inside components/owner folder. Then Exported to "Dashboard.jsx" file.
