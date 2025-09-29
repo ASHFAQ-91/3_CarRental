@@ -30,7 +30,7 @@
 16. **"MyBooking.jsx"** file is created inside *'pages'* folder. Then Exported to **"App.jsx"** file.
 
 
-
+<br><br><br>
 ## Owner Section:-
 
 ### Layout(import- NavbarOwner, Sidebar, ), Dashboard(import- TitleOwner, ), [folder- components/owner, pages/owner]
@@ -41,4 +41,6 @@
 20. **"Dashboard.jsx"** file is created inside *'pages/owner'* folder. Then Exported to **"App.jsx"** file.
 21. **"TitleOwner.jsx"** file is created inside *'components/owner'* folder. Then Exported to **"Dashboard.jsx"** file.<br/><br/>
 
-22. **"AddCar.jsx"** file is created inside *'pages/owner'* folder. Then Exported to **"App.jsx"** file.
+22. **"AddCar.jsx"** file is created inside *'pages/owner'* folder. Then Exported to **"App.jsx"** file.<br/><br/>
+
+23. **"ManageCars.jsx"** file is created inside *'pages/owner'* folder. then Exported to **"App.jsx"** file.<br/><br/>
