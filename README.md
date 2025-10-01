@@ -48,3 +48,5 @@
 24. **"ManageBooking.jsx"** file is created inside *'pages/owner'* folder. Then Exported to **"App.jsx"** file.
 
 25. **"Login.jsx"** file is created inside *'components'* folder. Then Exported to **"App.jsx"** file.
+
+git status
