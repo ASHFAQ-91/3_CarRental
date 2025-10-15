@@ -3,6 +3,7 @@ import { assets } from '../assets/assets';
 import Title from '../components/Title';
 import { useAppContext } from '../context/AppContext';
 import toast from 'react-hot-toast';
+import { motion } from 'motion/react';
 
 const MyBookings = () => {
 
@@ -30,7 +31,11 @@ const MyBookings = () => {
 
 
     return (
-        <div className='px-6 md:px-16 lg:px-24 xl:px-32 2xl:px-48 mt-16 text-sm max-w-7xl'>
+        <motion.div 
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className='px-6 md:px-16 lg:px-24 xl:px-32 2xl:px-48 mt-16 text-sm max-w-7xl'>
             <Title
                 title='My Booking'
                 subTitle='View and manage your all car booking'
@@ -39,7 +44,11 @@ const MyBookings = () => {
 
             <div>
                 {bookings.map((booking, index) => (
-                    <div key={booking._id} className='grid grid-cols-1 md:grid-cols-4 gap-6 p-6 border border-borderColor rounded-lg mt-5 first:mt-12'>
+                    <motion.div 
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.2 * index }}
+                    key={booking._id} className='grid grid-cols-1 md:grid-cols-4 gap-6 p-6 border border-borderColor rounded-lg mt-5 first:mt-12'>
 
                         {/* Car Image + Info */}
                         <div className='md:col-span-1'>
@@ -83,10 +92,10 @@ const MyBookings = () => {
                             </div>
                         </div>
 
-                    </div>
+                    </motion.div>
                 ))}
             </div>
-        </div>
+        </motion.div>
     )
 }
 
