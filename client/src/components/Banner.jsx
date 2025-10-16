@@ -11,7 +11,7 @@ const Banner = () => {
         >
 
             <div className='text-white'>
-                <h2 className='text-3xl font-medium'>Do You Own a Luxury Car?</h2>
+                <h2 className='text-3xl font-medium'>Do You Own a Sports Car?</h2>
                 <p className='mt-2'>Monetize your vehicle effortlessly by listing it on CarRental.</p>
                 <p className='max-w-130'>We take care of insurance, driver verification and secure payments - so you can earn passive income, stress-free.</p>
 
@@ -22,10 +22,11 @@ const Banner = () => {
             </div>
 
             <motion.img 
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: 70 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            src={assets.banner_car_image} alt="car" className='max-h-45 mt-10' />
+            transition={{ duration: 0.9, delay: 0.4 }}
+            src={assets.banner_car_image} alt="car" className='max-h-45 mt-3' />
+            {/* className='max-h-45' */}
         </motion.div>
     )
 }

@@ -31,11 +31,11 @@ const Navbar = () => { // setShowLogin params
             initial={{y: -20, opacity: 0}}
             animate={{y: 0, opacity: 1}}
             transition={{duration: 0.5}}
-            className={`flex items-center justify-between px-6 md-px-16 lg:px-24 xl:px-32 py-4 text-gray-600 border-b border-borderColor relative transition-all 
+            className={`flex items-center justify-between px-6 md-px-16 lg:px-24 xl:px-32 py-2 text-gray-600 border-b border-borderColor relative transition-all 
                 ${location.pathname === "/" && "bg-light"} `}
         >
             <Link to='/'>
-                <motion.img whileHover={{scale: 1.05}} src={assets.logo} alt="logo" className='h-8' />
+                <motion.img whileHover={{scale: 1.05}} src={assets.logo} alt="logo" className='h-12' />
             </Link>
 
             <div
@@ -44,7 +44,7 @@ const Navbar = () => { // setShowLogin params
                     ${open ? "max-sm:translate-x-0" : "max-sm:translate-x-full"}`}
             >
                 {menuLinks.map((link, index) => (
-                    <Link key={index} to={link.path}>
+                    <Link key={index} to={link.path} className='hover:font-semibold'>
                         {link.name}
                     </Link>
                 ))}
@@ -56,9 +56,9 @@ const Navbar = () => { // setShowLogin params
 
                 <div className='flex max-sm:flex-col items-start sm:items-center gap-6'>
 
-                    <button onClick={() => isOwner ? navigate('/owner') : changeRole()} className='cursor-pointer'>{isOwner ? 'Dashboard' : 'List cars'}</button>
+                    <button onClick={() => isOwner ? navigate('/owner') : changeRole()} className='cursor-pointer hover:font-semibold'>{isOwner ? 'Dashboard' : 'List cars'}</button>
 
-                    <button onClick={() => { user ? logout() : setShowLogin(true) }} className='cursor-pointer px-8 py-2 bg-primary hover:bg-primary-dull transition-all text-white rounded-lg'>{user ? 'Logout' : 'Login'}</button>
+                    <button onClick={() => { user ? logout() : setShowLogin(true) }} className='cursor-pointer px-8 py-2 bg-primary hover:bg-primary-dull transition-all text-white rounded-lg hover:font-semibold'>{user ? 'Logout' : 'Login'}</button>
                 </div>
             </div>
 

@@ -6,21 +6,21 @@ const Testimonial = () => {
 
     const testimonials = [      // array_of_an_object
         {
-            name: "Emma Rodriguez",
-            location: "Barcelona, Spain",
+            name: "Rahul Viyas",
+            location: "Jaipur, Rajasthan",
             image: assets.testimonial_image_1,
             testimonial: "I've rented cars from various companies, but the experience with CarTental was exceptional."
         },
         {
-            name: "John Smith",
-            location: "New York, USA",
+            name: "Riya Singh",
+            location: "Vasant Vihar, Delhi",
             image: assets.testimonial_image_2,
             testimonial: "CarRental made my trip so much easier. The car was delivered right to my door, and the customer service was fantastic!"
         },
         {
-            name: "Ava Johnson",
-            location: "Sydney, Australia",
-            image: assets.testimonial_image_1,
+            name: "Sofiya Khan",
+            location: "Malabar Hillv, Mumbai",
+            image: assets.testimonial_image_3,
             testimonial: "I highly recommend CarRental! Their fleet is amazing, and I always feel like I'm getting the best deal with excellent service."
         }
     ];
