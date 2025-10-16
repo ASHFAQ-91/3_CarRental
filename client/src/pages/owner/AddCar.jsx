@@ -110,8 +110,12 @@ const AddCar = () => {
                         <select onChange={e => setCar({ ...car, category: e.target.value })} value={car.category} className="px-3 py-2 mt-1 border border-borderColor rounded-md outline-none">
                             <option value="">Select a category</option>
                             <option value="Sedan">Sedan</option>
+                            <option value="Hatchback">Hatchback</option>
                             <option value="SUV">SUV</option>
-                            <option value="Van">Van</option>
+                            <option value="Semi-truck">Semi-truck</option>
+                            <option value="Convertible">Convertible</option>
+                            <option value="Coupe">Coupe</option>
+                            <option value="Sports">Sports</option>
                         </select>
                     </div>
                 </div>
@@ -152,10 +156,10 @@ const AddCar = () => {
                     <label>Location</label>
                     <select onChange={e => setCar({ ...car, location: e.target.value })} value={car.location} className="px-3 py-2 mt-1 border border-borderColor rounded-md outline-none">
                         <option value="">Select a location</option>
-                        <option value="New York">New York</option>
-                        <option value="Los Angeles">Los Angeles</option>
-                        <option value="Houston">Houston</option>
-                        <option value="Chicago">Chicago</option>
+                        <option value="Jaipur">Jaipur</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Noida">Noida</option>
                     </select>
                 </div>
 

@@ -24,7 +24,7 @@ const Hero = () => {
             <motion.h1 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className='text-4xl md:text-5xl font-semibold'>Luxury cars on Rent</motion.h1>
+                className='text-4xl md:text-5xl font-semibold'>Sports car for Rent</motion.h1>
 
             <motion.form
                 initial={{ scale: 0.95, opacity: 0, y: 50 }}
@@ -63,7 +63,7 @@ const Hero = () => {
                 initial={{ y: 100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
-                src={assets.main_car} alt="car" className='max-h-74' />
+                src={assets.main_car} alt="car" className='max-h-80' />
         </motion.div>
     )
 }
