@@ -16,4 +16,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home // exported to 3_CarRental/client/src/App.jsx

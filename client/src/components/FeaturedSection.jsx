@@ -58,4 +58,4 @@ const FeaturedSection = () => {
     )
 }
 
-export default FeaturedSection
+export default FeaturedSection // exported to 3_CarRental/client/src/pages/Home.jsx
