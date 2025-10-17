@@ -26,7 +26,7 @@ const Footer = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5, delay: 0.5 }}
                         className='max-w-80 mt-3'>
-                        Premium car rental service with a wide selection of luxury and everyday vehicles for all your driving needs.
+                        Premium car rental service with a wide selection of sports and everyday vehicles for all your driving needs.
                     </motion.p>
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
@@ -55,10 +55,10 @@ const Footer = () => {
                 >
                     <h2 className='text-base font-medium text-gray-800 uppercase'>Quick Links</h2>
                     <ul className='mt-3 flex flex-col gap-1.5'>
-                        <li className="hover:font-semibold" ><a href="#">Home</a></li>
-                        <li className="hover:font-semibold" ><a href="#">Browse Cars</a></li>
-                        <li className="hover:font-semibold" ><a href="#">List Your Car</a></li>
-                        <li className="hover:font-semibold" ><a href="#">About Us</a></li>
+                        <li className="hover:font-semibold" ><a href="/">Home</a></li>
+                        <li className="hover:font-semibold" ><a href="/cars">All Cars</a></li>
+                        <li className="hover:font-semibold" ><a href="/my-bookings">My Bookings</a></li>
+                        <li className="hover:font-semibold" ><a href="/owner/add-car">Add Your Car</a></li>
                     </ul>
                 </motion.div>
 
@@ -70,8 +70,8 @@ const Footer = () => {
                 >
                     <h2 className='text-base font-medium text-gray-800 uppercase'>Resources</h2>
                     <ul className='mt-3 flex flex-col gap-1.5'>
+                        <li className="hover:font-semibold"><a href="#">About Us</a></li>
                         <li className="hover:font-semibold"><a href="#">Help Center</a></li>
-                        <li className="hover:font-semibold"><a href="#">Terms of Service</a></li>
                         <li className="hover:font-semibold"><a href="#">Privacy Policy</a></li>
                         <li className="hover:font-semibold"><a href="#">Insurance</a></li>
                     </ul>
@@ -85,10 +85,10 @@ const Footer = () => {
                 >
                     <h2 className='text-base font-medium text-gray-800 uppercase'>Contact</h2>
                     <ul className='mt-3 flex flex-col gap-1.5'>
-                        <li>1234 Luxury Drive</li>
-                        <li>Rajasthan, Jaipur</li>
+                        <li>BBT Sports Drive</li>
+                        <li>Jaipur, Rajasthan</li>
                         <li>+91 98765 43210</li>
-                        <li>info@example.com</li>
+                        <li>info@example.in</li>
                     </ul>
                 </motion.div>
             </motion.div>

@@ -113,11 +113,11 @@ const CarDetails = () => {
                 </motion.div>
 
                 {/* Right: Booking Form  */}
-                <motion.form 
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.3 }}
-                onSubmit={handleSubmit} className="shadow-lg h-max sticky top-18 rounded-xl p-6 space-y-6 text-gray-500">
+                <motion.form
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: 0.3 }}
+                    onSubmit={handleSubmit} className="shadow-lg h-max sticky top-18 rounded-xl p-6 space-y-6 text-gray-500">
 
                     <p className='flex items-center justify-between text-2xl text-gray-800 font-semibold'>{currency}{car.pricePerDay} <span className='text-base text-gray-400 font-normal'>per day</span> </p>
 
@@ -140,8 +140,6 @@ const CarDetails = () => {
 
                 </motion.form>
             </div>
-
-            <h1>Hello Everyone kese ho aap sablog</h1>
         </div>
     ) : <Loader />
 }
