@@ -9,8 +9,8 @@ const Login = () => {
 
     const [state, setState] = React.useState("login");
     const [name, setName] = React.useState("");
-    const [email, setEmail] = React.useState("");
-    const [password, setPassword] = React.useState("");
+    const [email, setEmail] = React.useState("temp@gmail.com");
+    const [password, setPassword] = React.useState("Temp123#");
 
     const onSubmitHandler = async (event) => {
         try {
